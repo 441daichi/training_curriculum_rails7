@@ -46,6 +46,7 @@ class CalendarsController < ApplicationController
         day_of_week: wdays[(@todays_date + x).wday],
         plans: today_plans
       }
+      
       @week_days.push(days)
     end
 
